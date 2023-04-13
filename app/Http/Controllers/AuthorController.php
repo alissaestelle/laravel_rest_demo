@@ -20,8 +20,7 @@ class AuthorController extends Controller
   {
     $data = Validator::make($request->toArray(), [
       'name' => 'required',
-      'title' => 'required',
-      'company' => 'required',
+      'publisher' => 'required',
       'email' => 'required',
     ]);
 
@@ -39,8 +38,7 @@ class AuthorController extends Controller
   {
     $data = Validator::make($request->toArray(), [
       'name' => 'required',
-      'title' => 'required',
-      'company' => 'required',
+      'publisher' => 'required',
       'email' => 'required',
     ]);
 
